@@ -1,0 +1,70 @@
+{
+  "background_color": "#2b364e",
+  "description": "Aplicativo líder em segurança para o estado de Pernambuco.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "webapppwa.netlify",
+  "orientation": "portrait",
+  "scope": "PWA Scope",
+  "short_name": "webapppwa.netlify",
+  "start_url": "index.html",
+  "theme_color": "#2b364e",
+  "lang": "pt",
+  "icons": [
+    {
+      "src":"images/icons/29.png",
+      "sizes": "29x29",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/40.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/58.png",
+      "sizes": "58x58",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/80.png",
+      "sizes": "80x80",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/87.png",
+      "sizes": "87x87",
+      "type": "image/png"
+    },{
+      "src":"images/icons/114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src":"images/icons/180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src":"images/icons/1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

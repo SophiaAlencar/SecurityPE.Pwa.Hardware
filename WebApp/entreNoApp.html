@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>SecurityPE</title>
+    <script>
+        function outraPagina(){
+            window.location.href = "outra_pagina.html";
+        }
+    </script>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="images/security.png" alt="Imagem centralizada">
+        <form onsubmit="outraPagina(); return false;">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <input type="submit" name="sign up" value="Sign Up" >
+        </form>
+</body>
+</html>

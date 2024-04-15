@@ -1,0 +1,92 @@
+@import url("https://fontawesome.com/icons");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgba(106, 110, 161, 0.669);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container img {
+    max-width: 100%; 
+    max-height: 100%;
+    margin-left: 60px;
+    
+}
+h2{
+    text-align: center;
+    border: 2px solid black;
+    padding: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.607);
+    font-family: "Montserrat", sans-serif;
+}
+
+/*footer{
+    text-align: justify;
+    width: 100%;
+    padding-bottom: 60px;
+    background-color: rgba(255, 255, 255, 0.909);
+    text-decoration: none;
+}*/
+
+inputs-container {
+    margin-top: 20px; /* Adiciona espaço entre a imagem e os inputs */
+    text-align: center; /* Centraliza os inputs horizontalmente */
+}
+
+.inputs-container input {
+    margin: 5px 0;
+    display: block;
+    width: 245px;
+    margin-left: 60px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h4{
+    text-align: center;
+    border: 1px solid white;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+#insira{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#footer{
+    display:flex;
+    flex-direction: column;
+}
+
+#footer a{
+    text-decoration: none;
+    background-color: rgb(64, 106, 143);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#footer p{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+iframe{
+   width: auto;
+}
+

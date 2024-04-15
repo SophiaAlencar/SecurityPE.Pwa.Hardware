@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Seja Bem-vindo!</title>
+    <link rel="stylesheet" href="assets/css/outra_pag_estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <h2>SERVIÇOS</h2>
+    <h4>Mapa</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31656393.254779518!2d-51.316680000000005!3d-14.40952615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1712438090535!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <button id="askButton">Encontre a sua Localização</button>
+    <div id="target"></div>
+    <div class="inputs-container">
+        
+        <input type="text" name="impasse" class="problema" placeholder="Insira o problema encontrado">
+        <input type="text" name="aviso" class="alerta" placeholder="Insira um aviso">
+    </div>
+    <button id="api">API</button>
+    <br> <br>
+    <section id="foto">
+        <h4>Imagem</h4>
+
+        <div class="columns">
+            <div class="column">
+              <p><button type="button" onclick="getStream('video')">Insira seu Vídeo</button></p>
+              
+              <video controls autoplay style="height:180px; width: 240px;"></video>
+            </div>
+            <div class="column">
+              <p><button type="button" onclick="getStream('audio')">Insira seu áudio</button></p>
+              
+              <audio controls></audio>
+            </div>
+          </div>
+        <br><br><br>
+    </section>
+    <footer>
+        <section id="footer">
+            <a href="https://web.whatsapp.com/81998766339">Acesso ao meu contato no whatsApp</a>
+            <a href="https://www.instagram.com/_sophiaalbuquerquee/">Acesse minhas postagens no Instagram</a>
+            <a href="https://github.com/SophiaAlencar">Acesse meus projetos no GitHub</a>
+            <a href="mailton:sophiamalencar@gmail.com">Me mande um email</a>
+
+            <p>&copy; Sophia Albuquerque</p>
+        </section>
+    </footer>
+    <script src="hardware.js"></script>
+    <script src="camera.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
